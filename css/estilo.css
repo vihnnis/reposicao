@@ -5,8 +5,6 @@
 
 body{
     font-size: 14px;
-    width: auto;
-    height: auto;
 }
 
 .flex-container{
@@ -59,11 +57,17 @@ nav{
 }
 
 #conteudo{
-
-    flex-direction: column;
+    width: auto;
+    height: auto;
+    justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
 }
+
+#imgcont{
+justify-content: center;
+}
+
 .breadcrumb{
     padding-left: 2%;
     list-style: none;

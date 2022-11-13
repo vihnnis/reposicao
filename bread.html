@@ -3,15 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title> Aula Reposição</title>
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-    <form name="registro" method="post" onSubmit="return registro()">
-        <label for="cpf">CPF</label>
-        <input type="text" name="cpf" id="cpf" required><br>
-        <label for="password">Senha</label>
-        <input type="password" name="password" id="password"><br>
-        <button type="submit">Confirmar</button> 
-    </form>
+    <header class="flex-container" id="topo"><!--Topo-->
+        <a href="index.html" title="Home"><img class="imagem" src="img/header.jpg" alt="Imagem contendo 2 gatos, um branco e um preto"></a>
+    </header>
+    <nav class="flex-container"><!--Navegação-->
+        <ul class="menu">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="cad.html">Cadastro</a></li>
+            <li><a href="bread.html">Breadcrumb </a></li>   
+        </ul>
+    </nav>
+    <main class="flex-container" id="conteudo">
+        <ul class="breadcrumb">
+            <li><a href="index.html">Início</a></li>
+            <li>Breadcrumb</li>
+            <br>
+        </ul>
+        <section>
+        <br>
+        <h1>Breadcrumb</h1>
+        <img class="imagem" src="img/bread.png" alt="imagem contendo um pão">
+       </section>
+    </main>
 </body>
-    <script src="../js/reposicao<.js"></script>
+    <script src="js/reposicao.js"></script>
 </html>
